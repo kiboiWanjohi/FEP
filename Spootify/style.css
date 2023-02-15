@@ -19,6 +19,7 @@ body {
 }
 .container {
   height: 100vh;
+  display: flex;
 }
 .left {
   background-color: black;
@@ -32,9 +33,6 @@ body {
   padding: 20px;
   display: flex;
   flex-direction: column;
-}
-.fa {
-  color: gray;
 }
 .menu {
   display: flex;
@@ -75,8 +73,8 @@ body {
   left: 0px;
 }
 .arrow-container {
-  background-color: black;
-  border-radius: 50%;
+  /* background-color: black;
+  border-radius: 50%; */
   width: 400px;
   height: 40px;
   display: flex;
