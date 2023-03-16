@@ -10,7 +10,6 @@ app.listen(3000, () => {
 });
 
 let weather = {
-  apiKey: "b7f6d9a5cfc7c8717d29e5d0b5b432da",
   fetchWeather: function (city) {
     fetch(
       //   "https://api.openweathermap.org/data/2.5/weather?lat=54&lon=23&appid=b7f6d9a5cfc7c8717d29e5d0b5b432da"
