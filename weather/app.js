@@ -1,3 +1,14 @@
+require("dotenv").config();
+const express = require("express");
+const app = express();
+
+app.get("/", (req, res) => {
+  res.send("Hello API");
+});
+app.listen(3000, () => {
+  console.log("started");
+});
+
 let weather = {
   apiKey: "b7f6d9a5cfc7c8717d29e5d0b5b432da",
   fetchWeather: function (city) {
@@ -36,6 +47,7 @@ let weather = {
     this.fetchWeather(document.querySelector(".search-bar").value);
   },
 };
+
 document.querySelector(".search-button").addEventListener("click", function () {
   weather.search();
 });
