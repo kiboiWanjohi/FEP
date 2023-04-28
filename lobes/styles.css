@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&family=Ubuntu:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-radius: none;
+}
+body {
+  font-family: "Cormorant Garamond", serif;
+}
+
+nav {
+  display: flex;
+  font-weight: 600;
+  font-size: x-large;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0) 0px;
+}
+nav > h1 {
+  cursor: pointer;
+  user-select: none;
+}
+nav > ul {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+}
+nav > ul > li {
+  text-align: center;
+  display: inline-block;
+  padding: 0 20px;
+}
+nav > ul > li > a {
+  text-decoration: none;
+}
+.content {
+  padding-top: 10px;
+}
+.title {
+  min-height: 120px;
+  font-size: 24px;
+  text-align: center;
+}
+.title > h1 {
+  font-size: xx-large;
+  text-align: center;
+}
+.title > .btns {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+button {
+  border-radius: 32px;
+  background-color: #04ddb2;
+  text-align: center;
+  width: 168px;
+  height: 50px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 4s;
+}
+.about {
+  padding-top: 3px;
+  margin-top: 3px;
+  background-color: #f2f3f5;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 100%;
+  min-height: 230px;
+  border-radius: 2px 2px 2px 2px;
+  font-size: larger;
+}
