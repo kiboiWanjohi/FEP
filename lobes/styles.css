@@ -7,7 +7,7 @@
   border-radius: none;
 }
 body {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "LabGrotesque,Helvetica Neue,Helvetica,Arial,sans-serif";
 }
 
 nav {
@@ -79,4 +79,34 @@ button {
   min-height: 230px;
   border-radius: 2px 2px 2px 2px;
   font-size: larger;
+  letter-spacing: 0.05em;
+}
+.lists {
+  max-width: 1088px;
+  width: 100%;
+  padding: 0 64px;
+  display: flex;
+  background: rgb(235, 234, 242);
+  background: linear-gradient(
+    90deg,
+    rgba(235, 234, 242, 1) 70%,
+    rgba(134, 148, 127, 1) 100%,
+    /* rgba(0, 212, 255, 1) 100%,
+    rgba(0, 212, 255, 1) 100% */
+  );
+}
+.list-1 {
+  max-width: 360px;
+  margin: 16px;
+  flex: 1 1;
+  max-width: 334px;
+}
+.list-1 i {
+  border-radius: 14px;
+}
+.examples {
+  height: 100vh;
+}
+.title-examples {
+  text-align: center;
 }
